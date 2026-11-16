@@ -2047,7 +2047,7 @@ function drawCatalog() {
     const columns = [
         { x: 24, title: "ARSENAL", color: "#e0532f" },
         { x: 280, title: "BESTIÁRIO", color: "#d43a26" },
-        { x: 536, title: "MARINES", color: "#d9a44a" },
+        { x: 536, title: "NAVES", color: "#d9a44a" },
     ];
     for (const column of columns) {
         drawTechPanel(column.x, 120, 240, 376, column.color, "rgba(12, 8, 6, 0.96)");
