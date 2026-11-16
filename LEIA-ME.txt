@@ -1,0 +1,15 @@
+VOID FRONTIER — versão corrigida
+
+Arquivos: index.html, sketch.js, style.css e server.ps1.
+
+Como executar no Windows:
+1. Deixe os arquivos na mesma pasta.
+2. Abra o PowerShell nessa pasta.
+3. Execute: .\server.ps1
+4. Acesse http://localhost:8010/ no navegador.
+
+Controles: WASD/setas para mover; ESPAÇO para atirar; P para pausar/continuar; M para alternar áudio; ESC para retornar ao menu.
+Na loja, clique em um item para comprar; SHIFT + clique em uma melhoria para vendê-la com reembolso de 50%.
+Use os controles acima do jogo para ajustar brilho e contraste. A campanha termina após concluir 10 setores.
+
+Observação: os arquivos SVG da pasta assets/ não foram enviados no conjunto original. O código conserva os caminhos e os desenhos de fallback já existentes; inclua essa pasta caso você tenha os SVGs originais.

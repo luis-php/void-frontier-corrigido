@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>VOID FRONTIER · MODO FÚRIA</title>
+
+        <link rel="stylesheet" href="style.css">
+    </head>  
+    <body>
+       <main class="container">
+            <header class="brand">
+                <span class="brand-mark">☠</span>
+                <div>
+                    <p class="eyebrow">UAC // BASE DE FOGO: HELLGATE</p>
+                    <h1>VOID <strong>FRONTIER</strong></h1>
+                </div>
+                <span class="status"><i></i> ALERTA DE INVASÃO</span>
+            </header>
+            <div class="accessibility-controls" aria-label="Acessibilidade e áudio">
+                <button id="soundToggle" type="button" aria-pressed="true">ÁUDIO: ON</button>
+                <label for="brightnessControl">Brilho</label>
+                <input id="brightnessControl" type="range" min="70" max="130" value="100">
+                <label for="contrastControl">Contraste</label>
+                <input id="contrastControl" type="range" min="70" max="150" value="100">
+            </div>
+            <div class="game-container">
+                <canvas id="gameCanvas" width="800" height="600" aria-label="Jogo VOID FRONTIER"></canvas>
+            </div>
+            <footer class="controls-hint">
+                <span><b>W A S D</b> / <b>SETAS</b> mover</span>
+                <span><b>ESPAÇO</b> disparar</span>
+                <span><b>P</b> pausar</span><span><b>ESC</b> retornar</span>
+            </footer>
+        </main>
+
+        <script src="sketch.js"></script>
+    </body>
+</html>
